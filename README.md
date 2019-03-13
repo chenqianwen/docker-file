@@ -9,3 +9,9 @@ docker run -d --restart=always --name jenkins -e TZ=Asia/Shanghai  -v /data/jenk
 1. alibaba sentinel-dashboard
 2. 启动 
 docker run -d --restart=always -e JAVA_OPTS="-Dserver.port=8080 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=sentinel-dashboard -Djava.security.egd=file:/dev/./urandom" --name sentinel-dashboard -p 8849:8080 registry.cn-hangzhou.aliyuncs.com/yangguoliang/sentinel-dashboard:1.4.2
+
+
+### fastdfs
+
+
+### redis主从
